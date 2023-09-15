@@ -369,7 +369,7 @@ pipeline = Pipeline(
         supplied_baseline_statistics_data_quality, 
         supplied_baseline_constraints_data_quality, 
     ],
-    steps=[step_process, data_quality_check_step, step_train, step_eval, step_cond],
+    steps=[step_process, data_quality_check_step, step_train, step_eval, step_cond, step_register],
 )
 
 print(pipeline)
